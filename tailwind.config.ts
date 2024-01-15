@@ -20,7 +20,7 @@ const config: Config = {
           rgb: 'rgba(3, 2, 3, 1)',
         },
         'charcoal': {
-          hex: '#3D4E60ff',
+          hex: '#366C82',
           hsl: 'hsla(211, 22%, 31%, 1)',
           rgb: 'rgba(61, 78, 96, 1)',
         },

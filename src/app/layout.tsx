@@ -19,13 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet" />
-          {/* Outros elementos de Head */}
-        </Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet" />
+        {/* Outros elementos de Head */}
+        <link rel="icon" href="/logo.png" type="image/png" />
+
+      </Head>
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}</body>
     </html>
   )
