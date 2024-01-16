@@ -36,7 +36,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        'nova-square': ['"Nova Square"', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
       },
     },
   },
