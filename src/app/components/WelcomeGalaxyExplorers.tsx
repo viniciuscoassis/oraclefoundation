@@ -19,7 +19,7 @@ export default function WelcomeSection() {
           As we prepare for the public minting, these explorers await their destiny. Venture into the unknown — a narrative woven into each Explorer, promising a saga like no other.
         </p>
         <p className="italic">
-          "In the infinity of space, each Galaxy Explorer holds a destiny untold. Chart the uncharted."
+          &quot;In the infinity of space, each Galaxy Explorer holds a destiny untold. Chart the uncharted.&quot;
         </p>
       </div>
     </div>
