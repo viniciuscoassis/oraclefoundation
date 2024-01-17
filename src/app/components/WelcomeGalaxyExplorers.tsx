@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function WelcomeSection() {
   return (
-    <div className="bg-black text-white p-4 md:p-12 flex flex-col md:flex-row justify-center items-center text-center md:text-left">
+    <div className="bg-black min-h-1/2 text-white p-4 md:p-12 flex flex-col md:flex-row justify-center items-center text-center md:text-left">
       <div className="md:flex-1 md:mx-5 mb-6 md:mb-0">
         <Image src="/explorer.jpeg" alt="Galaxy Explorer" width={500} height={500} className="rounded-lg" />
       </div>
-      <div className="md:flex-1 max-w-xl mx-auto space-y-6">
+      <div className="md:flex-1 max-w-xl xl:max-w-full mx-auto space-y-6">
         <h1 className="text-3xl md:text-4xl  mb-4 text-atomic-tangerine-hex">Welcome to Galaxy Explorers. The Cosmos Awaits!</h1>
         <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
           <p className="text-xl font-semibold mb-4">Coming Soon</p>

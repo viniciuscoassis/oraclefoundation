@@ -26,12 +26,12 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div ref={scrollRef} className="flex overflow-x-scroll py-5" style={{
+    <div ref={scrollRef} className="flex overflow-x-scroll py-36 items-center max-w-1/2 custom-scrollbar" style={{
         scrollbarWidth: 'none', /* For Firefox */
         msOverflowStyle: 'none', /* For Internet Explorer 10+ */
-      }}>
+  }}>
       {[...Array(14)].map((_, i) => (
-        <div key={i} className="flex-none w-60 h-60 mx-2 bg-gray-500 rounded-lg">
+        <div key={i} className="flex-none w-60 h-60 mx-2 rounded-lg">
           <Image
             width={240}
             height={240}
