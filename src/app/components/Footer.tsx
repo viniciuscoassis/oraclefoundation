@@ -43,8 +43,8 @@ export default function Footer() {
                         <h2 className="text-xl font-bold">Oracles</h2>
                         <p>100 AI-generated oracles with embedded value</p>
                         <div className="flex space-x-4">
-                            <a href="#" className=" hover:text-blue-300"><FaDiscord height={30} /></a>
-                            <a href="#" className="hover:text-blue-300"><FiTwitter /></a>
+                            <a href="https://discord.gg/nUagbg9U" className=" hover:text-blue-300"><FaDiscord height={30} /></a>
+                            <a href="https://twitter.com/OracleFantom" className="hover:text-blue-300"><FiTwitter /></a>
                             <a href="#" className="hover:text-blue-300">
                                 <FaMedium />
                                 {/* <span className="absolute top-0 right-0 bg-red-500 text-xs rounded-full px-2 py-1 -translate-x-1/2 -translate-y-1/2">Soon</span> */}
